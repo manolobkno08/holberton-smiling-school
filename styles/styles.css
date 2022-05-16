@@ -1,0 +1,211 @@
+/* SUMMARY
+  GLOBALS
+    tags
+    custom propierties
+    owns
+  HERO IMAGE
+  HEADER
+    logo
+    menu
+  SCHOOLED
+  PROS
+  CAROUSEL
+*/
+/*  GLOBALS
+================================ */
+/* tags */
+button:hover,
+button:active {
+  opacity: 0.9;
+}
+/* custom propierties */
+:root {
+  --purple-color: #c271ff;
+  --black-color: #071629;
+  --gray-color: #979797;
+  --white-color: #ffffff;
+  --font-family-base: "Source Sans Pro", sans-serif;
+  --font-weight-base-ExtraLight: 200;
+  --font-weight-base-Light: 300;
+  --font-weight-base-Regular: 400;
+  --font-weight-base-Semibold: 600;
+  --font-weight-base-Bold: 700;
+  --font-weight-base-Black: 900;
+  --font-family-aux: "Spin Cycle OT", sans-serif;
+}
+/* owns */
+.ff-base {
+  font-family: var(--font-family-base);
+}
+.fw-base {
+  font-weight: var(--font-weight-base-Regular);
+}
+.fw-base-el {
+  font-weight: var(--font-weight-base-ExtraLight);
+}
+.fw-base-l {
+  font-weight: var(--font-weight-base-Light);
+}
+.fw-base-sb {
+  font-weight: var(--font-weight-base-Semibold);
+}
+.fw-base-b {
+  font-weight: var(--font-weight-base-Bold);
+}
+.fw-base-bl {
+  font-weight: var(--font-weight-base-Black);
+}
+.ls-0 {
+  letter-spacing: 0;
+}
+.ls-1 {
+  letter-spacing: 0.25px;
+}
+.ls-2 {
+  letter-spacing: 0.5px;
+}
+.ls-3 {
+  letter-spacing: 1px;
+}
+.ls-4 {
+  letter-spacing: 1.5px;
+}
+.ls-5 {
+  letter-spacing: 2px;
+}
+.text-purple {
+  color: var(--purple-color);
+}
+.text-black {
+  color: var(--black-color);
+}
+.text-gray {
+  color: var(--gray-color);
+}
+.bg-purple {
+  background-color: var(--purple-color);
+}
+.bg-black {
+  background-color: var(--black-color);
+}
+.bg-gray {
+  background-color: var(--gray-color);
+}
+.containerA {
+  width: 100%;
+  height: 1386px;
+  background-color: var(--black-color);
+}
+.containerB {
+  width: 100%;
+  height: 591px;
+}
+@media (min-width: 768px) {
+  .containerA {
+    width: 100%;
+    height: 1093px;
+  }
+  .containerB {
+    width: 100%;
+    height: 392px;
+  }
+}
+/* HERO IMAGE
+================================ */
+.jumbotron {
+  background-color: var(--black-color);
+  background-image: url(../images/pic_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.8;
+}
+@media (min-width: 992px) {
+  .jumbotron {
+    background-position-y: 0rem;
+  }
+}
+/*  HEADER
+================================ */
+/* logo */
+.imgSmile {
+  height: 32px;
+}
+.imgLogo {
+  height: 32px;
+}
+/* menu */
+.navbar {
+  position: absolute;
+  top: -0.5rem;
+  left: 0;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-nav {
+  position: absolute;
+  top: 80px;
+  left: 160px;
+}
+.holberton_school-icon-menu {
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  .navbar {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  .navbar-nav {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+}
+/*  SCHOOLED
+================================ */
+.schooled {
+  margin: 170px auto;
+}
+.titleA {
+  font-size: 3.5rem;
+}
+@media (min-width: 768px) {
+  .schooled {
+    margin: 130px auto 160px;
+  }
+  .titleA {
+    font-size: 7rem;
+    font-family: var(--font-weight-base-Black);
+    letter-spacing: normal;
+    margin-bottom: -0.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .schooled {
+    margin: 120px auto;
+  }
+  .titleA {
+    font-size: 6rem;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+  }
+}
+/*  PROS
+================================ */
+.pros {
+  padding: 4rem 0;
+}
+.pro {
+  width: 144px;
+}
+@media (min-width: 992px) {
+  .pro {
+    width: 150px;
+  }
+}
+/*  CAROUSEL
+================================ */
